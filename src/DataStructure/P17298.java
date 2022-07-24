@@ -35,33 +35,7 @@ public class P17298 {
 		for (int i=0; i<N; i++) {
 			bw.write(ans[i] + " "); // output
 		}
-		bw.write("\n");
-		bw.flush();
-		/*
-		st = new StringTokenizer(br.readLine());
-		for(int i=0; i<N; i++) {
-			A[i] = Integer.parseInt(st.nextToken());
-		}
-		int count = 0;
-		for (int i=0; i<A.length-1; i++) {
-			for (int j=i+1; j<A.length; j++) {
-				if (count == 0) {
-					if (A[i] < A[j]) {
-						//System.out.println("if문 : " + A[j] + " " + "j값 : " + j + " ");
-						System.out.print(A[j] + " ");
-						++count;
-					}
-					else
-						//System.out.println("else문 : -1" + " ");
-						System.out.print("-1" + " ");
-				}
-				else {
-					j = A.length -1 ; // i값 다음으로 넘어가도록 하려고 ex) i=0이었다면 i=1로
-					//System.out.println("i값 : " + i + " " + "j값 : " + j + " ");
-				}
-			}
-			count = 0;
-		}
-		*/
+		bw.write("\n"); // Output to console window
+		bw.flush(); // Empty Buffer
 	}
 }
