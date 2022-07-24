@@ -12,12 +12,12 @@ public class P17298 {
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		int N = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(br.readLine());
 		int A[] = new int[N];
 		int ans[] = new int[N];
 		String str[] = br.readLine().split(" "); // Cut the string based on the separator ("") and insert it into the array
 		for(int i=0; i<N; i++) {
-			A[i] = Integer.parseInt(st.nextToken());
+			A[i] = Integer.parseInt(str[i]);
 		}
 		Stack<Integer> myStack = new Stack<>();
 		myStack.push(0); // initialize by pushing the initial value because the stack is always empty at first
