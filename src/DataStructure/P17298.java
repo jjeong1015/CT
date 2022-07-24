@@ -1,5 +1,8 @@
 package DataStructure;
-
+// 크기가 N인 수열의 각 원소의 오른쪽에 있는 큰 수 구하는 프로그램
+// 4
+// 3 5 2 7
+// 5 7 7 -1
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
